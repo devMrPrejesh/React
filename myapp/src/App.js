@@ -1,23 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import G20,{Firstone} from './Components/first'
+import F from './Components/firstclass'
+import { Anotherclass } from './Components/firstclass';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Firstone name="kinship" />
+      <G20 />
+      <F />
+      <Anotherclass />
     </div>
   );
 }
