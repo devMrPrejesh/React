@@ -1,7 +1,7 @@
 import React from 'react'
 
-let First=()=> {
-    return <h1>Hi myself Prejesh is doing</h1>;
+let First=(props)=> {
+    return <h1>Hi myself Prejesh is doing {props.fame}</h1>;
 }   
 
 let Firstone=(props)=> {

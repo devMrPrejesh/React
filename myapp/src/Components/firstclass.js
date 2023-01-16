@@ -8,7 +8,7 @@ class Firstc extends Component {
 
 class Anotherclass extends Component {
     render(){
-       return createElement('div',{className:'AnatherClass'},createElement('h1',null,'Hello this is nested Class Compnent using create element'));
+       return <h1>Hello, {JSON.stringify(this.props.name)}</h1>;
     }
 }
 
